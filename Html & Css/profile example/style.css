@@ -1,0 +1,88 @@
+/* Default styles for the profile website */
+/* Add any initial styles here */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#about-me-info{
+    color:red;
+    font-size:25px;
+}
+
+.blue{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for small screens (e.g., mobile devices) */
+@media screen and (max-width: 767px) {
+    /* Adjust font sizes, margins, and padding for smaller screens */
+    body {
+      font-size: 14px;
+    }
+    .container {
+      padding: 20px;
+    }
+  }
+
+  /* Media query for medium screens (e.g., tablets) */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Adjust layout and styles for medium-sized screens */
+    .container {
+      max-width: 80%;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  /* Media query for large screens (e.g., desktops) */
+  @media screen and (min-width: 992px) {
+    /* Adjust layout and styles for large screens */
+    .container {
+      max-width: 1000px;
+    }
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+    }
+    .profile-details {
+      padding-left: 50px;
+    }
+  }
